@@ -1,0 +1,11 @@
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\bin\Debug\netcoreapp2.1\BodyProject.deps.json
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\bin\Debug\netcoreapp2.1\BodyProject.runtimeconfig.json
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\bin\Debug\netcoreapp2.1\BodyProject.runtimeconfig.dev.json
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\bin\Debug\netcoreapp2.1\BodyProject.dll
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\bin\Debug\netcoreapp2.1\BodyProject.pdb
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.csprojAssemblyReference.cache
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.csproj.CoreCompileInputs.cache
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.AssemblyInfoInputs.cache
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.AssemblyInfo.cs
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.dll
+C:\Users\Hiero\source\repos\BodyProject\BodyProject\obj\Debug\netcoreapp2.1\BodyProject.pdb
