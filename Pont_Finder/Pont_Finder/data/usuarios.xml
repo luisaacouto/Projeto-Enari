@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserList>
+  <User>
+    <id>0</id>
+    <nome>Mateus Abilio Gomes Leal</nome>
+    <email>mateuzim22@hotmail.com</email>
+    <senha>mateusbotanelas77</senha>
+    <cpf>78987906789</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>1</id>
+    <nome>jhonatan luiz chagas</nome>
+    <email>jho@gmail.com</email>
+    <senha>12345</senha>
+    <cpf>41432342342</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>2</id>
+    <nome>Hiero</nome>
+    <email>asdf</email>
+    <senha>asdf</senha>
+    <cpf>444999</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>3</id>
+    <nome>teste</nome>
+    <email>ete</email>
+    <senha>teste</senha>
+    <cpf>44419</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>4</id>
+    <nome>Hiero</nome>
+    <email>hiero</email>
+    <senha>hiero</senha>
+    <cpf>4418</cpf>
+    <ativo>true</ativo>
+  </User>
+</UserList>
