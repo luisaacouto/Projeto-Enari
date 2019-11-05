@@ -47,6 +47,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.ListarEmpresas = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -229,6 +230,15 @@
             this.ListarEmpresas.Size = new System.Drawing.Size(622, 200);
             this.ListarEmpresas.TabIndex = 21;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(306, 257);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Teste";
+            // 
             // formAlimentos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,6 +246,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1282, 675);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.ListarEmpresas);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.label8);
@@ -282,5 +293,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel ListarEmpresas;
+        private System.Windows.Forms.Label label5;
     }
 }
