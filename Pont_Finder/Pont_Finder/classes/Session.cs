@@ -8,11 +8,28 @@ namespace Pont_Finder
 {
     class Session
     {
-        private static int id;
+        private static int id = -1;
         private static string nome;
         private static string email;
         private static string senha;
         private static long cpf;
+
+        public static bool Online
+        {
+            get
+            {
+                if (id == -1)
+                    return false;
+                else
+                    return true; ;
+            }
+
+        }
+
+        public static void Deslogar()
+        {
+            id = -1; 
+        }
 
         public static int Id
         {

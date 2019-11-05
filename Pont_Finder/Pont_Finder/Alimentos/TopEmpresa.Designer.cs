@@ -1,6 +1,6 @@
-﻿namespace Pont_Finder
+﻿namespace Pont_Finder.alimentos
 {
-    partial class UserControl1
+    partial class TopEmpresa
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -43,8 +43,8 @@
             this.TopEmp.Controls.Add(this.pictureBox1);
             this.TopEmp.Location = new System.Drawing.Point(0, 0);
             this.TopEmp.Name = "TopEmp";
-            this.TopEmp.Size = new System.Drawing.Size(294, 50);
-            this.TopEmp.TabIndex = 0;
+            this.TopEmp.Size = new System.Drawing.Size(270, 50);
+            this.TopEmp.TabIndex = 1;
             this.TopEmp.Paint += new System.Windows.Forms.PaintEventHandler(this.TopEmp_Paint);
             // 
             // NomeTopEmp
@@ -53,9 +53,9 @@
             this.NomeTopEmp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NomeTopEmp.Location = new System.Drawing.Point(50, 15);
             this.NomeTopEmp.Name = "NomeTopEmp";
-            this.NomeTopEmp.Size = new System.Drawing.Size(57, 20);
+            this.NomeTopEmp.Size = new System.Drawing.Size(55, 20);
             this.NomeTopEmp.TabIndex = 1;
-            this.NomeTopEmp.Text = "label1";
+            this.NomeTopEmp.Text = "Nome";
             // 
             // pictureBox1
             // 
@@ -65,13 +65,13 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // UserControl1
+            // TopEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.TopEmp);
-            this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(294, 50);
+            this.Name = "TopEmpresa";
+            this.Size = new System.Drawing.Size(270, 50);
             this.TopEmp.ResumeLayout(false);
             this.TopEmp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -82,7 +82,7 @@
         #endregion
 
         private System.Windows.Forms.Panel TopEmp;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label NomeTopEmp;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

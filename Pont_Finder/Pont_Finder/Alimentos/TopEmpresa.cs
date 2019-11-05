@@ -8,20 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pont_Finder
-{    
-    public partial class UserControl1 : UserControl
+namespace Pont_Finder.alimentos
+{
+    public partial class TopEmpresa : UserControl
     {
-        private string avaliacao;
-        public UserControl1(string Ava)
+        private string NomeCompany;
+        public TopEmpresa(string Nome)
         {
-            avaliacao = Ava;
+            NomeCompany = Nome;
             InitializeComponent();
         }
 
         private void TopEmp_Paint(object sender, PaintEventArgs e)
         {
-            NomeTopEmp.Text = avaliacao.ToString();
+            NomeTopEmp.Text = NomeCompany;
         }
     }
 }

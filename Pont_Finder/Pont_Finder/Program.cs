@@ -1,6 +1,4 @@
-﻿using ModuloAlimentacao;
-using Pont_Finder.classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -19,6 +17,7 @@ namespace Pont_Finder
             //carregando o xml
             XmlLi xmlli = new XmlLi();      
             User user = new User();
+
             //salvando os itens na lista
             foreach (var item in xmlli.select())
             {
@@ -32,7 +31,7 @@ namespace Pont_Finder
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormPrincipal());
         }
     }
 }

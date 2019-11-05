@@ -18,26 +18,90 @@
   </User>
   <User>
     <id>2</id>
-    <nome>Hiero</nome>
-    <email>asdf</email>
-    <senha>asdf</senha>
-    <cpf>444999</cpf>
+    <nome>Luisa Ribeiro Couto</nome>
+    <email>carlos.nascimento@gmail.com</email>
+    <senha>lulululove34</senha>
+    <cpf>14251465220</cpf>
     <ativo>true</ativo>
   </User>
   <User>
     <id>3</id>
-    <nome>teste</nome>
-    <email>ete</email>
-    <senha>teste</senha>
-    <cpf>44419</cpf>
+    <nome>Luisa Ribeiro Couto</nome>
+    <email>carlos.nascimento@gmail.com</email>
+    <senha>lulululove34</senha>
+    <cpf>14251465220</cpf>
     <ativo>true</ativo>
   </User>
   <User>
     <id>4</id>
-    <nome>Hiero</nome>
-    <email>hiero</email>
-    <senha>hiero</senha>
-    <cpf>4418</cpf>
+    <nome>Vitoria Narciso</nome>
+    <email>mexicana@gmail.com</email>
+    <senha>minhacachorralate</senha>
+    <cpf>25896374178</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>5</id>
+    <nome>admin</nome>
+    <email>admin</email>
+    <senha>admin</senha>
+    <cpf>12345</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>6</id>
+    <nome>raphael</nome>
+    <email>raphaelacacio84@gmail.com</email>
+    <senha>000000</senha>
+    <cpf>1393264646</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>7</id>
+    <nome>uu</nome>
+    <email>uu</email>
+    <senha>11</senha>
+    <cpf>11</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>8</id>
+    <nome>Gui</nome>
+    <email>gui@gmail.com</email>
+    <senha>fatec</senha>
+    <cpf>4338686386338</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>9</id>
+    <nome>jho</nome>
+    <email>jho</email>
+    <senha>123</senha>
+    <cpf>123</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>10</id>
+    <nome>Pedro</nome>
+    <email>pedromuzy@hotmail.com</email>
+    <senha>pedro1234</senha>
+    <cpf>42750892864</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>11</id>
+    <nome>Pedro asda asd</nome>
+    <email>pedro@muzy.com</email>
+    <senha>pedro123456789</senha>
+    <cpf>14669766830</cpf>
+    <ativo>true</ativo>
+  </User>
+  <User>
+    <id>12</id>
+    <nome>asdfg</nome>
+    <email>asdfg@gmail.com</email>
+    <senha>asdfg</senha>
+    <cpf>27833572080</cpf>
     <ativo>true</ativo>
   </User>
 </UserList>

@@ -1,10 +1,10 @@
-﻿using BodyProject.Restaurante;
-using Pont_Finder.classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace BodyProject
+namespace Pont_Finder.alimentos
 {
     class ProfileList
     {
@@ -15,7 +15,7 @@ namespace BodyProject
         public void ProfileAdd(ProfileCompany emp)
         {
             ProfileCompany profComp = new ProfileCompany();
-            
+
             profComp.Especialidade = emp.Especialidade;
             profComp.Contato = emp.Contato;
             profComp.HoraInicio = emp.HoraInicio;
@@ -42,13 +42,13 @@ namespace BodyProject
             {
                 if (itemAva.IndexEmp == indexEmp)
                 {
-                        mediaNota += itemAva.Nota;
-                        count = count+1;
-                }                
+                    mediaNota += itemAva.Nota;
+                    count = count + 1;
+                }
             }
             foreach (var itemEmp in perfil)
             {
-                if(itemEmp.CodigoCompany == indexEmp)
+                if (itemEmp.CodigoCompany == indexEmp)
                 {
                     perfil[perfil.IndexOf(itemEmp)].NotaApurada = mediaNota / count;
                 }
@@ -91,11 +91,12 @@ namespace BodyProject
         public List<ProfileCompany> profileList(List<Company> referenceProfile)
         {
             List<ProfileCompany> Perfis = new List<ProfileCompany>();
+            CompanyList comp = new CompanyList();
             foreach (var id in referenceProfile)
             {
                 foreach (var item in perfil)
                 {
-                    if (referenceProfile.IndexOf(id) == item.CodigoCompany)
+                    if (id.Id == item.CodigoCompany)
                     {
                         Perfis.Add(item);
                     }

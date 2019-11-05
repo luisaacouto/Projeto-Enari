@@ -8,23 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pont_Finder.Alimentos
+namespace Pont_Finder.alimentos
 {
-    
     public partial class ExibirEmpresa : UserControl
     {
-        private string nome;
-        private int idEmpresa;
-        public ExibirEmpresa(string nomeComp, int idComp)
+        private string NomeCompany;
+        private int ID;
+        public ExibirEmpresa(string nomeEmpresa, int idComp)
         {
-            nome = nomeComp;
-            idEmpresa = idComp;
+            NomeCompany = nomeEmpresa;
+            ID = idComp;
             InitializeComponent();
         }
 
         private void Panel5_Paint(object sender, PaintEventArgs e)
         {
-            Nome.Text = nome;
+            NomeEmpresa.Text = NomeCompany;
         }
     }
 }

@@ -21,5 +21,11 @@ namespace Pont_Finder
         {
 
         }
+
+        private void button__Almentos_Click(object sender, EventArgs e)
+        {
+            FormPrincipal.Mudar(Botao(sender).Text);
+        }
+        private Button Botao(object sender) => (Button)sender;
     }
 }

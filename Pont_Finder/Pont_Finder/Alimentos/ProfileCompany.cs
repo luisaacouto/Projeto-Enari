@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace BodyProject
+namespace Pont_Finder.alimentos
 {
     class ProfileCompany
     {
@@ -27,7 +29,7 @@ namespace BodyProject
         {
             get { return horaInicio; }
             set { horaInicio = value; }
-        }            
+        }
         public DateTime HoraFim
         {
             get { return horaFim; }
@@ -51,7 +53,7 @@ namespace BodyProject
         public int CodigoCompany
         {
             get { return codigoCompany; }
-            set { codigoCompany = value;  }
+            set { codigoCompany = value; }
         }
         public float NotaApurada
         {

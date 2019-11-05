@@ -107,6 +107,7 @@ namespace Pont_Finder
         public void Drop()
         {
 
+            string idd = "0";
             
 
             XmlDocument xmldoc = new XmlDocument();

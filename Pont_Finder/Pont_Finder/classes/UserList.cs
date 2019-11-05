@@ -21,10 +21,7 @@ namespace Pont_Finder
             u.Nome = user.Nome;
             u.Email = user.Email;
             u.Senha = user.Senha;
-            u.Sexo = user.Sexo;
             u.Cpf = user.Cpf;
-            u.Celular = user.Celular;
-            u.DataNascimento = user.DataNascimento;
             u.Ativo = user.Ativo;
             users.Add(u);
 

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulos>
+  <Empresa>
+    <id>0</id>
+    <NomeEmpresa>emp1</NomeEmpresa>
+    <NomeFantasia>fan1</NomeFantasia>
+    <CNPJ>12</CNPJ>
+    <Endereço>ddfsd</Endereço>
+    <CepCep>33</CepCep>
+    <Telefone>656</Telefone>
+    <Foto>CAMINHO</Foto>
+    <Email>asd</Email>
+  </Empresa>
+  <Empresa>
+    <id>1</id>
+    <NomeEmpresa>sdfsdfds1</NomeEmpresa>
+    <NomeFantasia>fdsfsdf</NomeFantasia>
+    <CNPJ>324234</CNPJ>
+    <Endereço>gdfgfd12</Endereço>
+    <CepCep>55</CepCep>
+    <Telefone>7686</Telefone>
+    <Foto>CAMINHO</Foto>
+    <Email>afvcbvbbb</Email>
+  </Empresa>
+  <Empresa>
+    <id>0</id>
+    <NomeEmpresa>Bolos bom</NomeEmpresa>
+    <NomeFantasia>bolos bom fantasia</NomeFantasia>
+    <CNPJ>12345678901</CNPJ>
+    <Endereço>rua xyz numero 000 bairo xxx</Endereço>
+    <CepCep>11111111</CepCep>
+    <Telefone>31440000</Telefone>
+    <Foto>CAMINHO</Foto>
+    <Email>aqui vai uma descricao</Email>
+  </Empresa>
+  <Empresa>
+    <id>1</id>
+    <NomeEmpresa>colchoes e cia</NomeEmpresa>
+    <NomeFantasia>colchoes compania</NomeFantasia>
+    <CNPJ>32750892899</CNPJ>
+    <Endereço>bla bla endereco</Endereço>
+    <CepCep>0</CepCep>
+    <Telefone>12345678</Telefone>
+    <Foto>CAMINHO</Foto>
+    <Email>desc annsads desc</Email>
+  </Empresa>
+</modulos>

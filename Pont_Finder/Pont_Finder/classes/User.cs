@@ -9,12 +9,21 @@ namespace Pont_Finder
     class User
     {
         //atributos
-        private string nome, email, senha, sexo;
+        private string nome;
+        private string email;
+        private string senha;
         private long cpf;
-        int celular;
-        DateTime dataNascimento;
         private bool ativo;
 
+        //atributos opcionais
+        private string endereco;
+        private DateTime dataNascimento;
+
+        public User()
+        {
+            dataNascimento = DateTime.Parse("01/01/0001");
+            endereco = null;
+        }
 
         //metodos
         public string Nome
@@ -47,16 +56,10 @@ namespace Pont_Finder
             set { ativo = value; }
         }
 
-        public string Sexo
+        public string Endereco
         {
-            get { return sexo; }
-            set { sexo = value; }
-        }
-
-        public int Celular
-        {
-            get { return celular; }
-            set { celular = value; }
+            get { return endereco; }
+            set { endereco = value; }
         }
 
         public DateTime DataNascimento
@@ -64,5 +67,6 @@ namespace Pont_Finder
             get { return dataNascimento; }
             set { dataNascimento = value; }
         }
+
     }
 }

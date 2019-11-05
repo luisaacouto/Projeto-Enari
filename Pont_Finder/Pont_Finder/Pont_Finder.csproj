@@ -46,29 +46,73 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alimentos\Evaluation.cs" />
-    <Compile Include="Alimentos\ExibirEmpresa.cs">
+    <Compile Include="alimentos\Cadastro_Restaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alimentos\Cadastro_Restaurante.Designer.cs">
+      <DependentUpon>Cadastro_Restaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alimentos\Company.cs" />
+    <Compile Include="alimentos\CompanyList.cs" />
+    <Compile Include="alimentos\Evaluation.cs" />
+    <Compile Include="alimentos\ExibirEmpresa.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Alimentos\ExibirEmpresa.Designer.cs">
+    <Compile Include="alimentos\ExibirEmpresa.Designer.cs">
       <DependentUpon>ExibirEmpresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Alimentos\PanelFormat.cs">
-      <SubType>Component</SubType>
+    <Compile Include="alimentos\ProfileCompany.cs" />
+    <Compile Include="alimentos\ProfileList.cs" />
+    <Compile Include="alimentos\TopEmpresa.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Alimentos\ProfileCompany.cs" />
-    <Compile Include="Alimentos\ProfileList.cs" />
-    <Compile Include="classes\Company.cs" />
-    <Compile Include="classes\CompanyList.cs" />
+    <Compile Include="alimentos\TopEmpresa.Designer.cs">
+      <DependentUpon>TopEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avalie\formPostar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="avalie\formPostar.designer.cs">
+      <DependentUpon>formPostar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avalie\PostConstructor.cs" />
+    <Compile Include="avalie\PostList.cs" />
+    <Compile Include="avalie\XmlListAvalie.cs" />
+    <Compile Include="CadEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadEmpresa.Designer.cs">
+      <DependentUpon>CadEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="classes\Session.cs" />
     <Compile Include="classes\User.cs" />
     <Compile Include="classes\UserList.cs" />
+    <Compile Include="classes\Validation.cs" />
     <Compile Include="classes\XmlLi.cs" />
-    <Compile Include="Alimentos\Form1.cs">
+    <Compile Include="alimentos\formAlimentos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Alimentos\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="alimentos\formAlimentos.Designer.cs">
+      <DependentUpon>formAlimentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avalie\FormAvalie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="avalie\FormAvalie.Designer.cs">
+      <DependentUpon>FormAvalie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classes\XmlLi_Empresa.cs" />
+    <Compile Include="eventos\FormEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eventos\FormEventos.Designer.cs">
+      <DependentUpon>FormEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hospedagem\Cadastro_Empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospedagem\Cadastro_Empresa.Designer.cs">
+      <DependentUpon>Cadastro_Empresa.cs</DependentUpon>
     </Compile>
     <Compile Include="formLogin.cs">
       <SubType>Form</SubType>
@@ -94,19 +138,100 @@
     <Compile Include="formHome.Designer.cs">
       <DependentUpon>formHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="hospedagem\Cad_Quarto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospedagem\Cad_Quarto.Designer.cs">
+      <DependentUpon>Cad_Quarto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hospedagem\classes\Empresa.cs" />
+    <Compile Include="hospedagem\classes\hostList.cs" />
+    <Compile Include="hospedagem\classes\XML.cs" />
+    <Compile Include="hospedagem\Hosp_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospedagem\Hosp_Home.Designer.cs">
+      <DependentUpon>Hosp_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hospedagem\Listas_quartos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospedagem\Listas_quartos.Designer.cs">
+      <DependentUpon>Listas_quartos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RecuperarSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuperarSenha.Designer.cs">
+      <DependentUpon>RecuperarSenha.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Alimentos\TopEmpresa.cs">
+    <Compile Include="servicos\CadastrarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="servicos\CadastrarEmpresa.Designer.cs">
+      <DependentUpon>CadastrarEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="servicos\classes\Empresa.cs" />
+    <Compile Include="servicos\classes\Likes.cs" />
+    <Compile Include="servicos\classes\ListaEmpresa.cs" />
+    <Compile Include="servicos\classes\Post.cs" />
+    <Compile Include="servicos\classes\PostList.cs" />
+    <Compile Include="servicos\classes\Service.cs" />
+    <Compile Include="servicos\classes\ServiceList.cs" />
+    <Compile Include="servicos\classes\ServiceXml.cs" />
+    <Compile Include="servicos\classes\Worker.cs" />
+    <Compile Include="servicos\formservicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="servicos\formservicos.Designer.cs">
+      <DependentUpon>formservicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="servicos\Post.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="servicos\Post.Designer.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="servicos\postcard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Alimentos\TopEmpresa.Designer.cs">
-      <DependentUpon>TopEmpresa.cs</DependentUpon>
+    <Compile Include="servicos\postcard.Designer.cs">
+      <DependentUpon>postcard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Alimentos\ExibirEmpresa.resx">
+    <Compile Include="servicos\SolicitarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="servicos\SolicitarServico.Designer.cs">
+      <DependentUpon>SolicitarServico.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alimentos\Cadastro_Restaurante.resx">
+      <DependentUpon>Cadastro_Restaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alimentos\ExibirEmpresa.resx">
       <DependentUpon>ExibirEmpresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Alimentos\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="alimentos\TopEmpresa.resx">
+      <DependentUpon>TopEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="avalie\formPostar.resx">
+      <DependentUpon>formPostar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadEmpresa.resx">
+      <DependentUpon>CadEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alimentos\formAlimentos.resx">
+      <DependentUpon>formAlimentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="avalie\FormAvalie.resx">
+      <DependentUpon>FormAvalie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eventos\FormEventos.resx">
+      <DependentUpon>FormEventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hospedagem\Cadastro_Empresa.resx">
+      <DependentUpon>Cadastro_Empresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
@@ -120,6 +245,18 @@
     <EmbeddedResource Include="formHome.resx">
       <DependentUpon>formHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="hospedagem\Cad_Quarto.resx">
+      <DependentUpon>Cad_Quarto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hospedagem\Hosp_Home.resx">
+      <DependentUpon>Hosp_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hospedagem\Listas_quartos.resx">
+      <DependentUpon>Listas_quartos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecuperarSenha.resx">
+      <DependentUpon>RecuperarSenha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -128,9 +265,22 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Alimentos\TopEmpresa.resx">
-      <DependentUpon>TopEmpresa.cs</DependentUpon>
+    <EmbeddedResource Include="servicos\CadastrarEmpresa.resx">
+      <DependentUpon>CadastrarEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="servicos\formservicos.resx">
+      <DependentUpon>formservicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="servicos\Post.resx">
+      <DependentUpon>Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="servicos\postcard.resx">
+      <DependentUpon>postcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="servicos\SolicitarServico.resx">
+      <DependentUpon>SolicitarServico.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -145,14 +295,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="avalie\" />
-    <Folder Include="eventos\" />
-    <Folder Include="hospedagem\" />
-    <Folder Include="servicos\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="data\empresas.xml" />
     <Content Include="data\usuarios.xml" />
+    <Content Include="hospedagem\data\empresas.xml" />
+    <None Include="Resources\downred.png" />
+    <None Include="Resources\downgrey.png" />
+    <None Include="Resources\downblue.png" />
+    <None Include="Resources\upgrey.png" />
+    <None Include="Resources\upblue.png" />
+    <None Include="servicos\data\images\posts\offImage.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
