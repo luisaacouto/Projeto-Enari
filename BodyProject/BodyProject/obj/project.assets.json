@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hiero\\source\\repos\\BodyProject\\BodyProject\\BodyProject.csproj",
+      "projectUniqueName": "C:\\Users\\Hiero\\Desktop\\Teste Pull\\Projeto-Enari\\BodyProject\\BodyProject\\BodyProject.csproj",
       "projectName": "BodyProject",
-      "projectPath": "C:\\Users\\Hiero\\source\\repos\\BodyProject\\BodyProject\\BodyProject.csproj",
+      "projectPath": "C:\\Users\\Hiero\\Desktop\\Teste Pull\\Projeto-Enari\\BodyProject\\BodyProject\\BodyProject.csproj",
       "packagesPath": "C:\\Users\\Hiero\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hiero\\source\\repos\\BodyProject\\BodyProject\\obj\\",
+      "outputPath": "C:\\Users\\Hiero\\Desktop\\Teste Pull\\Projeto-Enari\\BodyProject\\BodyProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

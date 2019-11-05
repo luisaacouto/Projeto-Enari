@@ -8,7 +8,7 @@ namespace BodyProject
     {
         private string nome, nomeFantasia, email, tipoServico, senha, rua, bairro;
         private long cnpj;
-        private int numero , cep;
+        private int numero , cep, ID;
         private bool status;
 
         public string Nome
@@ -66,6 +66,11 @@ namespace BodyProject
         {
             get { return status; }
             set { status = value; }
-        }       
+        }
+        public int Id
+        {
+            get { return ID; }
+            set { ID = value; }
+        }
     }
 }
